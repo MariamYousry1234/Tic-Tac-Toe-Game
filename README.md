@@ -1,3 +1,3 @@
-![tic tac toe game](ٍstart%20game%20image.png)
+![game screenshot](https://github.com/MariamYousry1234/Tic-Tac-Toe-Game/blob/master/Start%20Game%20Image.PNG?raw=true)
 
-![tic tac toe game](picture.png)
+![game screenshot](https://github.com/MariamYousry1234/Tic-Tac-Toe-Game/blob/master/Picture.PNG?raw=true)
