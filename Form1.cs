@@ -104,13 +104,6 @@ namespace Tic_Tac_Toe_Game
 
             }
 
-            if (IsDraw())
-            {
-                labWhoWinner.Text = "   Draw";
-                labPlayer.Text = "Game Over";
-                ShowGameOver();
-                return true;
-            }
             return false;
         }
 
@@ -146,6 +139,14 @@ namespace Tic_Tac_Toe_Game
         {
             if (labPlayer.Text == "Game Over")
                 return;
+
+            if (IsDraw())
+            {
+                labWhoWinner.Text = "   Draw";
+                labPlayer.Text = "Game Over";
+                ShowGameOver();
+                return;
+            }
 
             if (button.Tag.ToString()=="?")
             {
